@@ -1,0 +1,6 @@
+/target/
+/.classpath
+*.csv
+*.html
+*.htm
+*.lst
