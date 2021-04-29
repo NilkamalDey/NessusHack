@@ -1,0 +1,11 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/NessusHex"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.opencsv:opencsv
+    versions:
+    - "5.3"
